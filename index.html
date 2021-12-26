@@ -1,0 +1,55 @@
+<html>
+
+<head>
+  <title>Animal Recognizer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Lakki+Reddy&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shizuru&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <center>
+    <div id="head">
+      <p>🐄Animal Recognizer</p>
+    </div>
+  </center>
+  <div id="animal_tag"></div>
+
+  <div class="row">
+    <span style="margin-left: 120px;" class="column"><img class="animal" src="Dog.jpg">
+      <p id="dog"><span style="color: red;">[0]</span> Dog</p>
+    </span>
+
+    <span class="column"><img class="animal" src="Cat.jpg">
+      <p id="cat"><span style="color: red;">[0]</span> Cat</p>
+    </span>
+
+    <span class="column"><img class="animal" src="Cow.jpg">
+      <p id="cow"><span style="color: red;">[0]</span> Cow</p>
+    </span>
+
+    <span class="column"><img class="animal" src="crow.jpg">
+      <p id="crow"><span style="color: red;">[0]</span> Crow</p>
+    </span>
+  </div>
+  <center>
+    <div>
+      <h3 id="result_label">Voice detected of :</h3>
+      <h3 id="result_confidence">Accuracy :</h3>
+      <button id="start" onclick="start()">Start</button>
+    </div>
+  </center>
+  <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+#head{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lakki Reddy', cursive;
+    font-size: 100px;
+    font-variant: small-caps;
+    padding-top: 30px;
+    padding:10px;
+    background-color:greenyellow;
+}
+#head p{
+    padding-top: 10px;
+}
+#animal_tag{
+    margin-top: -30px;
+    background-color: white;
+    padding: 20px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    width: 100%;
+}
+.animal{
+    border-radius: 250px;
+    height: 250px;
+    width: 250px;
+   
+}
+.column{
+    width: 20%;
+    float:left;
+    text-align: center;
+    color: rgb(4, 110, 4);
+    font-size: 40px;
+    font-family: 'Shizuru', cursive;
+}
+#start{
+    background-color: rgb(37, 143, 37);
+    border: rgb(17, 70, 17) 2px solid;
+    height: 100px;
+    width: 250px;
+    color: white;
+    margin-top: 100px;
+    font-size: 30px;
+}
+#start:hover{
+    background-color: white;
+    border: limegreen 3px solid;
+    color: black;
+}
+.row{
+    padding: 50px;
+}
+#result_label{
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 900px;
+}
+#result_confidence{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 900px;
+}
